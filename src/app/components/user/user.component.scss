@@ -1,0 +1,33 @@
+.ant-card {
+  margin-left: .75rem;
+  margin-right: .75rem;
+  height: calc(100% - 1.5rem);
+  padding-bottom: 1.5rem;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li {
+      border-bottom: 1px solid #ccc;
+      text-transform: capitalize;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+}
+
+.material-icons {
+  font-size: 32px;
+  margin-left: -5px;
+  margin-right: 10px;
+}

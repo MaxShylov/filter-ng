@@ -1,0 +1,7 @@
+<div class="users">
+  <app-user
+    class="user"
+    *ngFor="let u of users | filterByCity: []"
+    [user]="u"
+  ></app-user>
+</div>

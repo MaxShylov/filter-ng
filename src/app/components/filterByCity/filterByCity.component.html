@@ -1,0 +1,14 @@
+City
+
+<nz-select
+  class="select"
+  nzMode="multiple"
+  [(ngModel)]="listOfSelectedValue"
+>
+  <nz-option
+    class="select-item"
+    *ngFor="let city of cities"
+    [nzLabel]="city.label"
+    [nzValue]="city.value"
+  ></nz-option>
+</nz-select>

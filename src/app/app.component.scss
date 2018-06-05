@@ -1,0 +1,22 @@
+.layout {
+  height: 100vh;
+
+  &-content {
+    padding: 24px;
+  }
+}
+
+.content {
+  background: #fff;
+  padding: 24px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+}
+
+.sidebar {
+  background: #fff;
+  padding: 24px;
+}

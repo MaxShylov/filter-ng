@@ -1,0 +1,8 @@
+.users {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user {
+  width: calc(100% / 3);
+}

@@ -1,0 +1,15 @@
+<ng-template #coverTemplate>
+  <img alt="example" src="{{ user.image }}" />
+</ng-template>
+
+<nz-card nzHoverable [nzCover]="coverTemplate">
+  <h2>{{ user.name | uppercase }}</h2>
+  <div class="location">
+    <i class="material-icons">location_on</i>
+    <ul>
+      <li>{{ user.geo.city }}</li>
+      <li>{{ user.geo.state }}</li>
+      <li>{{ user.geo.street }}</li>
+    </ul>
+  </div>
+</nz-card>
