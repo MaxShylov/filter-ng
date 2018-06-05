@@ -10,7 +10,6 @@ export class FilterByCityComponent implements OnInit {
 
 
   cities = [];
-  listOfSelectedValue = [];
 
   constructor(private usersService: UsersService) {}
 
@@ -18,8 +17,4 @@ export class FilterByCityComponent implements OnInit {
     this.usersService.getUsers()
       .subscribe(data => this.cities = data.cities);
   }
-
-  getDataFilterByCity = () => this.cities;
-
-
 }

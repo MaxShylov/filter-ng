@@ -11,20 +11,12 @@ import { FilterByCityComponent } from '../filterByCity/filterByCity.component';
 export class UsersComponent implements OnInit {
 
   users = [];
-  filterCity = [];
 
-  constructor(
-    private usersService: UsersService,
-    private filterByCity: FilterByCityComponent
-  ) {}
+  constructor(private usersService: UsersService,) {}
 
   ngOnInit() {
     this.usersService.getUsers()
       .subscribe(data => this.users = data.users);
-
-    this.filterCity = this.filterByCity.listOfSelectedValue;
-
-    console.log(this.filterByCity);
   }
 
 }
