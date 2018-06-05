@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FilterByCityComponent } from './filterByCity.component';
+import { FilterByNameComponent } from './filter-by-name.component';
 
-describe('FilterByCityComponent', () => {
-  let component: FilterByCityComponent;
-  let fixture: ComponentFixture<FilterByCityComponent>;
+describe('FilterByNameComponent', () => {
+  let component: FilterByNameComponent;
+  let fixture: ComponentFixture<FilterByNameComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FilterByCityComponent ]
+      declarations: [ FilterByNameComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FilterByCityComponent);
+    fixture = TestBed.createComponent(FilterByNameComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

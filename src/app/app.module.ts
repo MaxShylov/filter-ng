@@ -17,9 +17,11 @@ import { NZ_I18N, en_US } from 'ng-zorro-antd';
 import { AppComponent } from './app.component';
 import { UsersComponent } from './components/users/users.component';
 import { UserComponent } from './components/user/user.component';
-import { FilterByCityComponent } from './components/filterByCity/filterByCity.component';
+import { FilterByCityComponent } from './components/filter-by-city/filter-by-city.component';
 import { FiltersComponent } from './components/filters/filters.component';
 import { FilterByCityPipe } from './pipes/filter-by-city.pipe';
+import { FilterByNameComponent } from './components/filter-by-name/filter-by-name.component';
+import { FilterByAgeComponent } from './components/filter-by-age/filter-by-age.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { FilterByCityPipe } from './pipes/filter-by-city.pipe';
     UserComponent,
     FilterByCityComponent,
     FiltersComponent,
-    FilterByCityPipe
+    FilterByCityPipe,
+    FilterByNameComponent,
+    FilterByAgeComponent
   ],
   imports: [
     BrowserModule,

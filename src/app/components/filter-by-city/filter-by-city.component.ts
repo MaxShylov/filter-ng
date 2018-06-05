@@ -3,8 +3,8 @@ import { UsersService } from '../../services/users.service';
 
 @Component({
   selector: 'app-filter-by-city',
-  templateUrl: './filterByCity.component.html',
-  styleUrls: ['./filterByCity.component.scss']
+  templateUrl: './filter-by-city.component.html',
+  styleUrls: ['./filter-by-city.component.scss']
 })
 export class FilterByCityComponent implements OnInit {
 

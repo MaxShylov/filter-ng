@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 import { UsersService } from '../../services/users.service';
-import { FilterByCityComponent } from '../filterByCity/filterByCity.component';
+import { FilterByCityComponent } from '../filter-by-city/filter-by-city.component';
 
 @Component({
   selector: 'app-users',
